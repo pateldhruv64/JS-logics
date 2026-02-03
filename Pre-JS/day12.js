@@ -57,74 +57,74 @@
 
 //  TEST---1;-----------------------------------------------------------
 
-let userday = 400;
+// let userday = 400;
 
-const year = userdays / 360;
-const intyear = parseInt(year);
-console.log(intyear);
+// const year = userdays / 360;
+// const intyear = parseInt(year);
+// console.log(intyear);
 
-const month = (userdays % 360) / 30;
-const intmont = parseInt(month);
-console.log(intmont);
+// const month = (userdays % 360) / 30;
+// const intmont = parseInt(month);
+// console.log(intmont);
 
-const day = (userdays % 360) % 30;
-const intday = parseInt(day);
-console.log(intday);
+// const day = (userdays % 360) % 30;
+// const intday = parseInt(day);
+// console.log(intday);
 
-// TEST---2;-------------------------------------------------------------
+// // TEST---2;-------------------------------------------------------------
 
-let usersec = 10000;
+// let usersec = 10000;
 
-const h = usersec / 3600;
-const inth = parseInt(h);
-console.log(inth);
+// const h = usersec / 3600;
+// const inth = parseInt(h);
+// console.log(inth);
 
-const minute = (usersec % 3600) / 60;
-const intminute = parseInt(minute);
-console.log(intminute);
+// const minute = (usersec % 3600) / 60;
+// const intminute = parseInt(minute);
+// console.log(intminute);
 
-const sec = (usersec % 3600) % 60;
-const intsec = parseInt(sec);
-console.log(intsec);
+// const sec = (usersec % 3600) % 60;
+// const intsec = parseInt(sec);
+// console.log(intsec);
 
-// TEST----3;---------------------------------------------------------------
-//   500,200,100,50,20,10,5,2,1;
+// // TEST----3;---------------------------------------------------------------
+// //   500,200,100,50,20,10,5,2,1;
 
-let user = 4010;
+// let user = 4010;
 
-const five = user / 500;
-const intf = parseInt(five);
-console.log(intf);
+// const five = user / 500;
+// const intf = parseInt(five);
+// console.log(intf);
 
-const twoh = (user % 500) / 200;
-const intt = parseInt(twoh);
-console.log(intt);
+// const twoh = (user % 500) / 200;
+// const intt = parseInt(twoh);
+// console.log(intt);
 
-const shoo = ((user % 500) % 200) / 100;
-const intsho = parseInt(shoo);
-console.log(intsho);
+// const shoo = ((user % 500) % 200) / 100;
+// const intsho = parseInt(shoo);
+// console.log(intsho);
 
-const pachash = (((user % 500) % 200) % 100) / 50;
-const intpachash = parseInt(pachash);
-console.log(intpachash);
+// const pachash = (((user % 500) % 200) % 100) / 50;
+// const intpachash = parseInt(pachash);
+// console.log(intpachash);
 
-const vish = ((((user % 500) % 200) % 100) % 50) / 20;
-const intvish = parseInt(vish);
-console.log(intvish);
+// const vish = ((((user % 500) % 200) % 100) % 50) / 20;
+// const intvish = parseInt(vish);
+// console.log(intvish);
 
-const dash = (((((user % 500) % 200) % 100) % 50) % 20) / 10;
-const intdash = parseInt(dash);
-console.log(intdash);
+// const dash = (((((user % 500) % 200) % 100) % 50) % 20) / 10;
+// const intdash = parseInt(dash);
+// console.log(intdash);
 
-const panchru = ((((((user % 500) % 200) % 100) % 50) % 20) % 10) / 5;
-const intpanchru = parseInt(panchru);
-console.log(intpanchru);
+// const panchru = ((((((user % 500) % 200) % 100) % 50) % 20) % 10) / 5;
+// const intpanchru = parseInt(panchru);
+// console.log(intpanchru);
 
-const bee = (((((((user % 500) % 200) % 100) % 50) % 20) % 10) % 5) / 2;
-const intbee = parseInt(bee);
-console.log(intbee);
+// const bee = (((((((user % 500) % 200) % 100) % 50) % 20) % 10) % 5) / 2;
+// const intbee = parseInt(bee);
+// console.log(intbee);
 
-const ekrupiyo =
-  ((((((((user % 500) % 200) % 100) % 50) % 20) % 10) % 5) % 2) / 1;
-const intekrupiyo = parseInt(ekrupiyo);
-console.log(intekrupiyo);
+// const ekrupiyo =
+//   ((((((((user % 500) % 200) % 100) % 50) % 20) % 10) % 5) % 2) / 1;
+// const intekrupiyo = parseInt(ekrupiyo);
+// console.log(intekrupiyo);
