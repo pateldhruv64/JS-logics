@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(270deg, #e3f2fd, #bbdefb, #90caf9, #64b5f6);
+      background-size: 800% 800%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      animation: bgAnimation 15s ease infinite;
+    }
+
+    h1 {
+      color: #1976d2;
+      font-size: 2.5em;
+      animation: fadeBounce 3s ease-in-out infinite, colorChange 5s linear infinite;
+    }
+
+    /* Background Gradient Animation */
+    @keyframes bgAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    /* Fade + Bounce Animation */
+    @keyframes fadeBounce {
+      0% {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+
+      50% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      70% {
+        transform: translateY(-10px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Color Changing Animation */
+    @keyframes colorChange {
+      0% {
+        color: #1976d2;
+      }
+
+      25% {
+        color: #388e3c;
+      }
+
+      50% {
+        color: #d32f2f;
+      }
+
+      75% {
+        color: #fbc02d;
+      }
+
+      100% {
+        color: #1976d2;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>🎉 Welcome to our team!</h1>
+</body>
+
+</html>

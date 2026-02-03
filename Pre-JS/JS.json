@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Patel",
+    "age": 22,
+    "city": "Ahmedabad",
+    "email": "aarav.patel@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Riya Sharma",
+    "age": 24,
+    "city": "Surat",
+    "email": "riya.sharma@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Vivaan Mehta",
+    "age": 21,
+    "city": "Vadodara",
+    "email": "vivaan.mehta@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Diya Joshi",
+    "age": 23,
+    "city": "Rajkot",
+    "email": "diya.joshi@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Krish Desai",
+    "age": 25,
+    "city": "Mumbai",
+    "email": "krish.desai@example.com"
+  },
+  {
+    "id": 6,
+    "name": "Ananya Shah",
+    "age": 22,
+    "city": "Pune",
+    "email": "ananya.shah@example.com"
+  },
+  {
+    "id": 7,
+    "name": "Rudra Thakkar",
+    "age": 23,
+    "city": "Bhavnagar",
+    "email": "rudra.thakkar@example.com"
+  },
+  {
+    "id": 8,
+    "name": "Mira Parmar",
+    "age": 20,
+    "city": "Junagadh",
+    "email": "mira.parmar@example.com"
+  },
+  {
+    "id": 9,
+    "name": "Harsh Gohil",
+    "age": 26,
+    "city": "Nadiad",
+    "email": "harsh.gohil@example.com"
+  },
+  {
+    "id": 10,
+    "name": "Saanvi Trivedi",
+    "age": 24,
+    "city": "Gandhinagar",
+    "email": "saanvi.trivedi@example.com"
+  },
+  {
+    "id": 11,
+    "name": "Dhruv Solanki",
+    "age": 22,
+    "city": "Anand",
+    "email": "dhruv.solanki@example.com"
+  },
+  {
+    "id": 12,
+    "name": "Kavya Rana",
+    "age": 23,
+    "city": "Bharuch",
+    "email": "kavya.rana@example.com"
+  },
+  {
+    "id": 13,
+    "name": "Yash Patel",
+    "age": 27,
+    "city": "Navsari",
+    "email": "yash.patel@example.com"
+  },
+  {
+    "id": 14,
+    "name": "Ishani Dave",
+    "age": 21,
+    "city": "Valsad",
+    "email": "ishani.dave@example.com"
+  },
+  {
+    "id": 15,
+    "name": "Manav Chauhan",
+    "age": 22,
+    "city": "Mehsana",
+    "email": "manav.chauhan@example.com"
+  },
+  {
+    "id": 16,
+    "name": "Jiya Vyas",
+    "age": 20,
+    "city": "Morbi",
+    "email": "jiya.vyas@example.com"
+  },
+  {
+    "id": 17,
+    "name": "Arjun Parmar",
+    "age": 24,
+    "city": "Kutch",
+    "email": "arjun.parmar@example.com"
+  },
+  {
+    "id": 18,
+    "name": "Nisha Bhatt",
+    "age": 25,
+    "city": "Ahmedabad",
+    "email": "nisha.bhatt@example.com"
+  },
+  {
+    "id": 19,
+    "name": "Kabir Modi",
+    "age": 23,
+    "city": "Surat",
+    "email": "kabir.modi@example.com"
+  },
+  {
+    "id": 20,
+    "name": "Priya Pandya",
+    "age": 22,
+    "city": "Rajkot",
+    "email": "priya.pandya@example.com"
+  }
+]

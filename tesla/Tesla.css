@@ -1,0 +1,210 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+
+}
+
+.Navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.Navs {
+
+    width: 95%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Tesla {
+    width: 100px;
+    height: 30px;
+    /* background-color: red; */
+    cursor: pointer;
+}
+
+
+.links {
+    width: 30%;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    gap: 30px;
+    font-size: large;
+    cursor: pointer;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9%;
+}
+
+.link:hover {
+    background-color: rgb(235, 235, 235);
+    transition: background 0.5s;
+}
+
+.Contact {
+    font-size: larger;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 9%;
+
+}
+
+.Contact:hover {
+    background-color: rgb(235, 235, 235);
+    transition: background 0.5s;
+}
+
+
+.Explore {
+    width: 7%;
+    height: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero1 {
+    background-color: aquamarine;
+    width: 100%;
+    height: 70vh;
+
+}
+
+
+.Hero {
+    background-color: rgb(54, 68, 63);
+    width: 100%;
+    height: 100%;
+
+}
+
+.Img1 {
+    width: 100%;
+
+    height: 100%;
+
+
+
+}
+
+.Img2 {
+
+    width: 90%;
+
+    height: 70%;
+    position: absolute;
+    right: 05%;
+    transition: ease 2s;
+
+
+}
+
+
+
+.Img2:hover {
+    opacity: 0.00;
+
+}
+
+
+.two {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+.section {
+
+    width: 100%;
+    height: 300px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-1 {
+
+    width: 45%;
+    height: 80%;
+    /* background-color: blanchedalmond; */
+}
+
+
+.img33 {
+    width: 100%;
+    height: 100%;
+    transition: ease 2s;
+    border-radius: 5px;
+
+}
+
+.card-12 {
+    display: grid;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    /* background-color: chartreuse; */
+
+}
+
+.img3 {
+    width: 50%;
+    height: 80%;
+    margin-left: 10px;
+}
+
+.card-11 {
+
+    background-color: #f4f4f4d9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5%;
+    padding: 5px;
+    gap: 10px;
+}
+
+
+
+.Current {
+    font-size: 2rem;
+}
+
+.limited {
+    font-size: 1.2rem;
+}
+
+.button {
+
+    height: 50px;
+
+
+}
+
+.img33:hover {
+    scale: 1.1;
+}
