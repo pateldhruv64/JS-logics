@@ -1,4 +1,4 @@
-const userunit = 160;
+const userunit = 1600;
 let total = 0;
 
 if (userunit < 50) {
