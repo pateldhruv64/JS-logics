@@ -1,14 +1,23 @@
 import './App.css';
+import About from './pages/About';
+import Contect from './pages/Contect';
+import Footer from './pages/Footer';
+import Home from './pages/Home';
+import Navbar from './pages/Navbar';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <div class="w-full h-screen justify-center  flex items-center bg-cyan-400  hover:bg-emerald-300 transition delay-700 ease-in">
-        <div class="justify-center  flex items-center bg-amber-500 w-100 h-100  hover:bg-pink-300 transition delay-500 ease-in">
-          <div class="justify-center items-center bg-amber-900  hover:bg-amber-200 transition delay-200"></div>
-        </div>
-      </div>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contect" element={<Contect />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
