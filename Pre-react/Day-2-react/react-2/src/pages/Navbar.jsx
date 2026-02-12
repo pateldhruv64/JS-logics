@@ -19,16 +19,16 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              to="/about"
-              className="block text-gray-700 hover:text-blue-600"
-            >
-              About
-            </Link>
-            <Link
               to="/contect"
               className="block text-gray-700 hover:text-blue-600"
             >
               Contact
+            </Link>
+            <Link
+              to="/about"
+              className="block text-gray-700 hover:text-blue-600"
+            >
+              About
             </Link>
           </div>
 
