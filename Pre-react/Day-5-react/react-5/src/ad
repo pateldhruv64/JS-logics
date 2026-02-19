@@ -1,0 +1,4 @@
+  useEffect(() => {
+    document.title = `Current Count: ${Count}`;
+    console.log('Count :', Count);
+  }, [Count]);

@@ -1,45 +1,56 @@
+
+
 import './App.css';
 import { ToastContainer, toast } from 'react-toastify';
-function App() {
-  const Delete = () => toast('Delete your item');
+import 'react-toastify/dist/ReactToastify.css';
 
-  const Update = () => toast('Update your item');
+function App() {
+  const Delete = (id) => {
+    console.log(id);
+    toast(`Delete item with id ${id}`);
+  };
+
+  const Update = (id) => {
+    toast(`Update item with id ${id}`);
+  };
+
   const Add = () => toast('Add your item');
+
   const data = [
     { name: 'dhruv', age: '12', id: '1' },
     { name: 'ayush', age: '22', id: '2' },
     { name: 'hem', age: '32', id: '3' },
   ];
+
   return (
     <>
-      <div className="w-70 h-70 bg-amber-300   justify-center flex-row   gap-3 flex">
+      <ToastContainer />
+
+      <div className="w-70 h-70 bg-amber-300 flex gap-3 p-4">
         <ul>
-          <h1>
-            {data.map((el) => {
-              return (
-                <>
-                  <li>{el.name}</li>
-                  <li>{el.age}</li>
-                  <li>{el.id}</li>
-                </>
-              );
-            })}
-          </h1>
+          {data.map((el) => (
+            <li key={el.id}>
+              {el.name} - {el.age} - {el.id}
+              <button
+                onClick={() => Delete(el.id)}
+                className="bg-red-700 text-white ml-2 px-2"
+              >
+                Delete
+              </button>
+              <button
+                onClick={() => Update(el.id)}
+                className="bg-green-700 text-white ml-2 px-2"
+              >
+                Update
+              </button>
+            </li>
+          ))}
         </ul>
       </div>
 
-      <div className="gap-3 flex w-10  h-10 mt-10 pl-10">
-        <button onClick={Delete} className="bg-red-700 cursor-pointer">
-          Delete
-          <ToastContainer />
-        </button>
-        <button onClick={Update} className="bg-green-700 cursor-pointer">
-          Update
-          <ToastContainer />
-        </button>
-        <button onClick={Add} className="bg-yellow-700 cursor-pointer">
+      <div className="gap-3 flex mt-5 pl-10">
+        <button onClick={Add} className="bg-yellow-700 text-white px-3">
           Add
-          <ToastContainer />
         </button>
       </div>
     </>
