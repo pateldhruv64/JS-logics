@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 const Counter = () => {
-  const [Count, setCount] = useState(0);
+  const [Count, setCount] = useState("pink");
   const increment = () => {
     setCount(Count + 1);
   };
